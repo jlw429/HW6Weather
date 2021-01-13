@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets\style.css">
+    <title>Weather</title>
+</head>
+<!-- -->
+
+<body>
+    <!-- Jumbotron-->
+    <div class="jumbotron-fluid p-3 mb-2 bg-warning text-dark">
+        <div class="container-fluid">
+            <h1 class="display-4"> Weather Dashboard</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class = "row">
+        <div class="col-sm-6">
+        <input id="city-search" class="form-control city-class" type="text" placeholder="Type in the name of a city:"
+            aria-label="ex">
+        </div>
+        <div class="col-sm-2">
+        <button type="submit" id="search-button" class="btn btn-warning">Search</button>
+        </div>    
+        </div>
+        
+         <div class="row">
+            <div class="col-sm-8 card-main">
+                <div id="current-conditions" class="card-body">
+                    <h3 id="cc"></h3>
+                    <h6 id="high"></h6>
+                    <h6 id="low"></h6>
+                    <h6 id="humid"></h6>
+                    <h6 id="speed"></h6>
+                    <h6 id="uv"></h6>
+                    <img id="current-icon"></img>
+                    
+                    
+
+            </div>
+                </div>
+
+           <!-- List Group for previous cities PREpended -->
+            <ul class="col-sm-2 prev-city">
+                <h4>Previous Cities Searched:</h4>
+                <li class="list-group-item"></li>
+            </ul>
+            <!--Cards for 5 day forecast -->
+        </div>
+        <div class="row five-day">
+            <div class="col-sm-2 card-five">
+                <div class="card-body">
+                    <h6 id="five-date-one"></h6>
+                    <img id="five-icon-one"></img>
+                    <h6 id="five-high-one"></h6>
+                    <h6 id="five-low-one"></h6>
+                    <h6 id="humid-one"></h6>
+                   
+                </div>
+            </div>
+            <div class="col-sm-2 card-main">
+                <div class="card-body">
+                    <h6 id="five-date-two"></h6>
+                    <img id="five-icon-two"></img>
+                    <h6 id="five-high-two"></h6>
+                    <h6 id="five-low-two"></h6>
+                    <h6 id="humid-two"></h6>
+                </div>
+            </div>
+            <div class="col-sm-2 card-main">
+                <div class="card-body">
+                    <h6 id="five-date-three"></h6>
+                    <img id="five-icon-three"></img>
+                    <h6 id="five-high-three"></h6>
+                    <h6 id="five-low-three"></h6>
+                    <h6 id="humid-three"></h6>
+                </div>
+            </div>
+            <div class="col-sm-2 card-main">
+                <div class="card-body">
+                    <h6 id="five-date-four"></h6>
+                    <img id="five-icon-four"></img>
+                    <h6 id="five-high-four"></h6>
+                    <h6 id="five-low-four"></h6>
+                    <h6 id="humid-four"></h6>
+                </div>
+            </div>
+            <div class="col-sm-2 card-main">
+                <div class="card-body">
+                    <h6 id="five-date-five"></h6>
+                    <img id="five-icon-five"></img>
+                    <h6 id="five-high-five"></h6>
+                    <h6 id="five-low-five"></h6>
+                    <h6 id="humid-five"></h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets\script.js"></script>
+</body>
+
+</html>
