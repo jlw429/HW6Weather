@@ -4,8 +4,35 @@
 } */
 
 .card-body {
-    border: solid gray
-    
-    
-
+  margin: 15px;
+  border: solid;
 }
+
+/* .uv0_2 {
+  background-color: green;
+}
+
+.uv3_5 {
+  background-color: yellow;
+  width: 20px;
+}
+
+.uv6_7 {
+  background-color: orange;
+  width: 20px;
+}
+
+.uv8_10 {
+  background-color: red;
+  width: 20px;
+}
+
+.uv11_20 {
+  background-color: violet;
+  width: 20px;
+}
+
+#uv {
+  max-width: auto;
+  width: 20px;
+} */
