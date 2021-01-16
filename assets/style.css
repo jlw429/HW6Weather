@@ -1,11 +1,38 @@
-/* .prev-city {
-    float: right;
-    width: 33%
-} */
+.display-4 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center
+}
 
+#city-search {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+#search-button {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+#prev-city-display {
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+#current-conditions {
+    font-family: 'Roboto', sans-serif;
+}
 .card-body {
-  margin: 15px;
+  margin: 10px;
   border: solid;
+  padding: 10px;
+}
+
+.card-main {
+    padding: 0px
+}
+
+.five {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .uv0_2 {
@@ -36,3 +63,10 @@
   max-width: auto;
   width: 20px;
 } */
+
+.end {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4em;
+}

@@ -2,7 +2,7 @@ $(document).ready(function () {
   function getWeatherData(city) {
 
   }
-  
+
   function displayWeather() {
     $('#search-button').click(function (event) {
       event.preventDefault();
@@ -162,7 +162,7 @@ $(document).ready(function () {
     for (let i = dataStorage.length - 1; i >= 0; i--) {
       // cityHistory[cityHistory.length] = dataStorage[i];
       $('#prev-city-display').append(
-        '<li>' + dataStorage[i].citySearch + '</li>'
+        '<h6>' + dataStorage[i].citySearch + '</h6>'
         //.click(event => {
         // displayWeather(dataStorage[i].citySearch)
         //})
