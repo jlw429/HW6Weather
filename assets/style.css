@@ -35,34 +35,35 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* .uv0_2 {
+.uv0_2 {
   background-color: green;
+  width: 35%
 }
 
 .uv3_5 {
   background-color: yellow;
-  width: 20px;
+  width: 35%
 }
 
 .uv6_7 {
   background-color: orange;
-  width: 20px;
+  width: 35%
 }
 
 .uv8_10 {
   background-color: red;
-  width: 20px;
+  width: 35%
 }
 
 .uv11_20 {
   background-color: violet;
-  width: 20px;
+  width: 35%
 }
 
 #uv {
   max-width: auto;
-  width: 20px;
-} */
+  /* width: 20px; */
+}
 
 .end {
     position: absolute;

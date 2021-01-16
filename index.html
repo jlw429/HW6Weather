@@ -24,21 +24,24 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <input id="city-search" class="form-control city-class" type="text"
                     placeholder="Type in the name of a city:" aria-label="ex">
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-4">
                 <button type="submit" id="search-button" class="btn btn-warning">Search</button>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-2 card-main">
+            <div class="col-sm-4 card-main">
                 <div id="prev-city-display" class="bg-warning card-body"></div>
+                <div class="text-center">
+                    <button type="submit" id="clear-search-button" class="btn btn-warning">Clear Search History</button>
+                </div>
             </div>            
             
-            <div class="col-md-10 card-main">
+            <div class="col-md-8 card-main">
                 <div id="current-conditions" class="bg-warning card-body">
                     <h1 id="cc"></h1>
                     <img id="current-icon"></img>
@@ -54,7 +57,7 @@
             <!--Cards for 5 day forecast -->
         </div>
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-4">
 
             </div>
             <div class="col-auto card-main">
