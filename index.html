@@ -26,9 +26,10 @@
 
     <div class="container">
         <div class="row">
+            <!-- Sidebar -->
             <div class="col-md-4 mt-2">
                 <div class="col-12 city-class">
-                    <form id="search-form">
+                    <form id="search-form d-flex">
                         <input id="city-search" type="text" placeholder="Search.." name="search">
                         <button id="search-button" type="submit"><i class="fas fa-search"></i></button>
                     </form>
@@ -42,79 +43,72 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 mt-2 card-main">
-                <div id="current-conditions" class="bg-warning card-body">
-                    <h1 id="cc"></h1>
-                    <img id="current-icon"></img>
-                    <h4 id="high"></h4>
-                    <h4 id="low"></h4>
-                    <h4 id="humid"></h4>
-                    <h4 id="speed"></h4>
-                    <h4 id="uv"></h4>
+            <!-- Weather -->
+            <div class="col-md-8 mt-2">
+                <!-- Current Conditions -->
+                <div class="col-md-12 card-main">
+                    <div id="current-conditions" class="bg-warning card-body">
+                        <h1 id="cc"></h1>
+                        <img id="current-icon"></img>
+                        <h4 id="high"></h4>
+                        <h4 id="low"></h4>
+                        <h4 id="humid"></h4>
+                        <h4 id="speed"></h4>
+                        <h4 id="uv"></h4>
+                    </div>
+                </div>
+                <!-- Forecast -->
+                <div class="row forecast-row">
+                    <div class="col-auto card-main">
+                        <div class="bg-warning card-body five">
+                            <p id="five-date-one"></p>
+                            <img id="five-icon-one"></img>
+                            <p id="five-high-one"></p>
+                            <p id="five-low-one"></p>
+                            <p id="humid-one"></p>
+
+                        </div>
+                    </div>
+                    <div class="col-auto card-main">
+                        <div class="bg-warning card-body five">
+                            <p id="five-date-two"></p>
+                            <img id="five-icon-two"></img>
+                            <p id="five-high-two"></p>
+                            <p id="five-low-two"></p>
+                            <p id="humid-two"></p>
+                        </div>
+                    </div>
+                    <div class="col-auto card-main">
+                        <div class="bg-warning card-body five">
+                            <p id="five-date-three"></p>
+                            <img id="five-icon-three"></img>
+                            <p id="five-high-three"></p>
+                            <p id="five-low-three"></p>
+                            <p id="humid-three"></p>
+                        </div>
+                    </div>
+                    <div class="col-auto card-main">
+                        <div class="bg-warning card-body five">
+                            <p id="five-date-four"></p>
+                            <img id="five-icon-four"></img>
+                            <p id="five-high-four"></p>
+                            <p id="five-low-four"></p>
+                            <p id="humid-four"></p>
+                        </div>
+                    </div>
+                    <div class="col-auto card-main">
+                        <div class="bg-warning card-body five">
+                            <p id="five-date-five"></p>
+                            <img id="five-icon-five"></img>
+                            <p id="five-high-five"></p>
+                            <p id="five-low-five"></p>
+                            <p id="humid-five"></p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-
-
-
-
-            <!-- List Group for previous cities PREpended -->
-
-            <!--Cards for 5 day forecast -->
-
-
-            <div class="row">
-                <div class="col-sm-4">
-
-                </div>
-                <div class="col-auto card-main">
-                    <div class="bg-warning card-body five">
-                        <p id="five-date-one"></p>
-                        <img id="five-icon-one"></img>
-                        <p id="five-high-one"></p>
-                        <p id="five-low-one"></p>
-                        <p id="humid-one"></p>
-
-                    </div>
-                </div>
-                <div class="col-auto card-main">
-                    <div class="bg-warning card-body five">
-                        <p id="five-date-two"></p>
-                        <img id="five-icon-two"></img>
-                        <p id="five-high-two"></p>
-                        <p id="five-low-two"></p>
-                        <p id="humid-two"></p>
-                    </div>
-                </div>
-                <div class="col-auto card-main">
-                    <div class="bg-warning card-body five">
-                        <p id="five-date-three"></p>
-                        <img id="five-icon-three"></img>
-                        <p id="five-high-three"></p>
-                        <p id="five-low-three"></p>
-                        <p id="humid-three"></p>
-                    </div>
-                </div>
-                <div class="col-auto card-main">
-                    <div class="bg-warning card-body five">
-                        <p id="five-date-four"></p>
-                        <img id="five-icon-four"></img>
-                        <p id="five-high-four"></p>
-                        <p id="five-low-four"></p>
-                        <p id="humid-four"></p>
-                    </div>
-                </div>
-                <div class="col-auto card-main">
-                    <div class="bg-warning card-body five">
-                        <p id="five-date-five"></p>
-                        <img id="five-icon-five"></img>
-                        <p id="five-high-five"></p>
-                        <p id="five-low-five"></p>
-                        <p id="humid-five"></p>
-                    </div>
-                </div>
-
-            </div>
         </div>
 
         <script src="assets\script.js"></script>

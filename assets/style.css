@@ -7,21 +7,24 @@
 }
 
 #search-form {
-  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 10px; */
 }
 
 #city-search {
   font-family: 'Comfortaa', cursive;
   background-color: #ffc107;
   padding: 5px;
+  margin-right: 5px;
   font-size: 17px;
   border: solid black;
   min-height: 50px;
-  width: auto;
+  flex-grow: 2;
 }
 
 #search-button {
-  padding: 5px;
+  /* padding: 5px; */
   background: #ffc107;
   color: black;
   min-height: 50px;
@@ -32,20 +35,27 @@
 
 #prev-city-display {
   font-family: 'Comfortaa', cursive;
-  position: relative;
+  margin: 10px 0;
 }
 
 #current-conditions {
   font-family: 'Roboto', sans-serif;
 }
-.card-body {
-  margin: 10px;
-  border: solid;
-  padding: 10px;
-}
 
 .card-main {
-  padding: 0px;
+  /* padding: 0 10px; */
+}
+
+.card-body {
+  /* margin: 10px; */
+  border: solid;
+  /* padding: 10px; */
+}
+
+.forecast-row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .five {
