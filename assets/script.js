@@ -53,29 +53,29 @@ function displayCurrentWeather(weatherData) {
   $('#low').text("Tonight's low will be " + weatherData.current.tempLow + '°F');
   $('#humid').text('Current Humidity: ' + weatherData.current.humidity + '%');
   $('#speed').text('Wind Speed: ' + weatherData.current.windspeed + ' MPH ');
-  $('#uv').text('UV Index: ' + weatherData.current.uvi);
-  $('#uv').removeClass();
+  $('#uvc').text(weatherData.current.uvi);
+  $('#uvc').removeClass();
 
   /* UV Scale from NWS: https://www.weather.gov/rah/uv */
   switch (Math.floor(weatherData.current.uvi)) {
     case 0:
     case 1:
     case 2:
-      $('#uv').addClass('uv0_2');
+      $('#uvc').addClass('uv0_2');
       break;
     case 3:
     case 4:
     case 5:
-      $('#uv').addClass('uv3_5');
+      $('#uvc').addClass('uv3_5');
       break;
     case 6:
     case 7:
-      $('#uv').addClass('uv6_7');
+      $('#uvc').addClass('uv6_7');
       break;
     case 8:
     case 9:
     case 10:
-      $('#uv').addClass('uv8_10');
+      $('#uvc').addClass('uv8_10');
       break;
     case 11:
     default:
