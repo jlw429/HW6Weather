@@ -1,25 +1,42 @@
 .display-4 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.city-class {
+}
+
+#search-form {
+  margin: 0 10px;
 }
 
 #city-search {
-    font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', cursive;
+  background-color: #ffc107;
+  padding: 5px;
+  font-size: 17px;
+  border: solid black;
+  min-height: 50px;
+  width: auto;
 }
-
 
 #search-button {
-    font-family: 'Comfortaa', cursive;
+  padding: 5px;
+  background: #ffc107;
+  color: black;
+  min-height: 50px;
+  min-width: 50px;
+
+  border: solid black;
 }
 
-
 #prev-city-display {
-    font-family: 'Comfortaa', cursive;
-    
+  font-family: 'Comfortaa', cursive;
+  position: relative;
 }
 
 #current-conditions {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .card-body {
   margin: 10px;
@@ -28,36 +45,36 @@
 }
 
 .card-main {
-    padding: 0px
+  padding: 0px;
 }
 
 .five {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .uv0_2 {
   background-color: green;
-  width: 35%
+  width: 35%;
 }
 
 .uv3_5 {
   background-color: yellow;
-  width: 35%
+  width: 35%;
 }
 
 .uv6_7 {
   background-color: orange;
-  width: 35%
+  width: 35%;
 }
 
 .uv8_10 {
   background-color: red;
-  width: 35%
+  width: 35%;
 }
 
 .uv11_20 {
   background-color: violet;
-  width: 35%
+  width: 35%;
 }
 
 #uv {
@@ -66,8 +83,12 @@
 }
 
 .end {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 4em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4em;
+}
+
+.listCity {
+  cursor: pointer;
 }
