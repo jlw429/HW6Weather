@@ -79,7 +79,7 @@ function displayCurrentWeather(weatherData) {
       break;
     case 11:
     default:
-      $('#uv').addClass('uv11_20');
+      $('#uvc').addClass('uv11_20');
       break;
   }
 }
