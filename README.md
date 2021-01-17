@@ -11,4 +11,4 @@ Every condition has been met.
 ### Screenshots
 
 Index Page
-![Index Page](https://github.com/jlw429/HW6Weather/blob/main/assets/Screenshot06b.png)
+![Index Page](https://github.com/jlw429/HW6Weather/blob/main/assets/screenshot06b.png)
