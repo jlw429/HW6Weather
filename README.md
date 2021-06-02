@@ -1,14 +1,45 @@
-# Weather API
+# Weather Dashboard 
 
-06 API weather application to show current conditions, five-day forecast, previous cities searched.
+![License](https://img.shields.io/badge/License-MIT-blue.svg 'License Badge')
 
-## My Thoughts
+## Table of Contents
 
-While I am improving at thinking like a programmer, I was happy that I got the APIS up and running on my own. The UV piece was tricky as I went and looked for other APIS. I figured out the work-around with the lat/lon feature though and it works well. 
+- [Description](#description)
+- [License](#license)
+- [Questions](#questions)
+- [Website](#website)
+- [Screenshots](#screenshots)
 
-Every condition has been met. 
+## Description:
 
-### Screenshots
+A way for the user to type in a city, get the city, current conditions and five day forecast. 
 
-Index Page
-![Index Page](https://github.com/jlw429/HW6Weather/blob/main/assets/screenshot06b.png)
+## License:
+
+For more information about the License, click on the link below.
+
+- [MIT License](https://opensource.org/licenses/MIT)
+
+## Questions:
+
+For the source code, please consult my GitHub page:
+
+- [GitHub Profile](https://github.com/jlw429)
+
+## Deployed Website:
+
+- [Website](https://jlw429.github.io/HW6Weather/)
+
+## Screenshots
+
+### Artist Bio:
+
+![Biography](assets/screenshots/artist_main_scrnshot.png 'Biography')
+
+### Discography:
+
+![Discography](assets/screenshots/disco_scrnshot.png 'Discography')
+
+### Top Songs:
+
+![Songs](assets/screenshots/yt_scrnshot.png 'Songs')
