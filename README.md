@@ -1,4 +1,4 @@
-# Weather Dashboard 
+# Weather Dashboard
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg 'License Badge')
 
@@ -8,11 +8,11 @@
 - [License](#license)
 - [Questions](#questions)
 - [Website](#website)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 
 ## Description:
 
-A way for the user to type in a city, get the city, current conditions and five day forecast. 
+A way for the user to type in a city, get the city, current conditions and five day forecast.
 
 ## License:
 
@@ -30,16 +30,6 @@ For the source code, please consult my GitHub page:
 
 - [Website](https://jlw429.github.io/HW6Weather/)
 
-## Screenshots
+## Screenshot
 
-### Artist Bio:
-
-![Biography](assets/screenshots/artist_main_scrnshot.png 'Biography')
-
-### Discography:
-
-![Discography](assets/screenshots/disco_scrnshot.png 'Discography')
-
-### Top Songs:
-
-![Songs](assets/screenshots/yt_scrnshot.png 'Songs')
+![Main](assets/screenshot.png 'Main')
