@@ -28,7 +28,7 @@ For the source code, please consult my GitHub page:
 
 ## Deployed Website:
 
-- [Website](https://jlw429.github.io/HW6Weather/)
+- [Website](https://jlw429.github.io/Weather-Dashboard/)
 
 ## Screenshot
 
